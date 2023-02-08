@@ -198,7 +198,7 @@ Error
 }
 /* 
 ====== 
-Cocktails List 
+Receipies List 
 ======
 */
 
@@ -213,7 +213,7 @@ Cocktails List
   margin-bottom: 3.5rem;
   margin-top: 1rem;
 }
-.cocktails-center {
+.receipies-center {
   width: var(--smallWidth);
   margin: 0 auto;
   max-width: var(--fullWidth);
@@ -223,17 +223,17 @@ Cocktails List
   /* align-items: start; */
 }
 @media screen and (min-width: 576px) {
-  .cocktails-center {
+  .receipies-center {
     grid-template-columns: repeat(auto-fill, minmax(338.8px, 1fr));
   }
 }
 /* 
 ====== 
-Cocktail 
+Receipie
 ======
 */
 
-.cocktail {
+.receipe {
   background: var(--mainWhite);
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
@@ -242,27 +242,27 @@ Cocktail
   grid-template-rows: auto 1fr;
   border-radius: var(--mainBorderRadius);
 }
-.cocktail:hover {
+.receipe:hover {
   box-shadow: var(--darkShadow);
 }
-.cocktail img {
+.receipe img {
   height: 20rem;
   object-fit: cover;
   border-top-left-radius: var(--mainBorderRadius);
   border-top-right-radius: var(--mainBorderRadius);
 }
-.cocktail-footer {
+.receipe-footer {
   padding: 1.5rem;
 }
-.cocktail-footer h3,
-.cocktail-footer h4,
-.cocktail-footer p {
+.receipe-footer h3,
+.receipe-footer h4,
+.receipe-footer p {
   margin-bottom: 0.3rem;
 }
-.cocktail-footer h3 {
+.receipe-footer h3 {
   font-size: 2rem;
 }
-.cocktail-footer p {
+.receipe-footer p {
   color: var(--darkGrey);
   margin-bottom: 0.5rem;
 }
@@ -305,47 +305,47 @@ Form
 }
 /* 
 ====== 
-Cocktail
+Receipie
 ======
 */
 
-.cocktail-section {
+.receipe-section {
   text-align: center;
 }
-.drink {
+.meal {
   width: var(--smallWidth);
   max-width: var(--fullWidth);
   margin: 0 auto;
   text-align: left;
 }
-.drink img {
+.meal img {
   border-radius: var(--mainBorderRadius);
 }
-.drink p {
+.meal p {
   font-weight: bold;
   text-transform: capitalize;
   line-height: 1.8;
 }
-.drink span {
+.meal span {
   margin-right: 0.5rem;
 }
-.drink-data {
+.meal-data {
   background: var(--primaryLightColor);
   padding: 0.25rem 0.5rem;
   border-radius: var(--mainBorderRadius);
   color: var(--primaryColor);
 }
-.drink-info {
+.meal-info {
   padding-top: 2rem;
 }
 @media screen and (min-width: 992px) {
-  .drink {
+  .meal {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 3rem;
     align-items: center;
   }
-  .drink-info {
+  .meal-info {
     padding-top: 0;
   }
 }

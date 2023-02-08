@@ -85,38 +85,38 @@ const SingleReceipe = () => {
     } = receipe;
 
     return (
-      <section className="section cocktail-section">
+      <section className="section receipe-section">
         <Link to="/" className="btn btn-primary">
           back home
         </Link>
         <h2 className="section-title">{name}</h2>
-        <div className="drink">
+        <div className="receipe">
           <img src={image} alt={name}></img>
-          <div className="drink-info">
+          <div className="receipe-info">
             <p>
-              <span className="drink-data">name:</span>
+              <span className="receipe-data">name:</span>
               {name}
             </p>
             <p>
-              <span className="drink-data">category:</span>
+              <span className="receipe-data">category:</span>
               {category}
             </p>
             <p>
-              <span className="drink-data">country:</span>
+              <span className="receipe-data">country:</span>
               {country}
             </p>
             <p>
-              <span className="drink-data">videourl:</span>
+              <span className="receipe-data">videourl:</span>
               {videourl}
             </p>
             <p>
-              <span className="drink-data">ingredients:</span>
+              <span className="receipe-data">ingredients:</span>
               {ingredients.map((item, index) => {
                 return item ? <span key={index}>{item}</span> : null;
               })}
             </p>
             <p>
-              <span className="drink-data">receipeinfo:</span>
+              <span className="receipe-data">receipeinfo:</span>
               {receipeinfo}
             </p>
           </div>

@@ -18,7 +18,7 @@ const ReceipeList = () => {
   return (
     <section className="section">
       <h2 className="section-title">receipes</h2>
-      <div className="cocktails-center">
+      <div className="receipies-center">
         {receipes.map((meal) => {
           return <Receipe key={meal.id} {...meal} />;
         })}

@@ -11,11 +11,11 @@ const Receipe = ({
   videourl,
 }) => {
   return (
-    <article className="cocktail">
+    <article className="receipe">
       <div className="img-container">
         <img src={image} alt={name}></img>
       </div>
-      <div className="cocktail-footer">
+      <div className="receipe-footer">
         <h3>{name}</h3>
         <h4>{category}</h4>
         <h4>{country}</h4>
