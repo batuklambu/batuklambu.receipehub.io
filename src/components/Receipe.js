@@ -21,10 +21,9 @@ const Receipe = ({
         <h4>{country}</h4>
         <h5>{videourl}</h5>
         <p>{receipeinfo}</p>
-        <Link
-          to={`/Receipe/${id}`}
-          className="btn btn-primary btn-details"
-        ></Link>
+        <Link to={`/Receipe/${id}`} className="btn btn-primary btn-details">
+          details
+        </Link>
       </div>
     </article>
   );

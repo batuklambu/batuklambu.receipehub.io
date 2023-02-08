@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-// import pages
 import Home from './pages/Home';
 import About from './pages/About';
 import SingleReceipe from './pages/SingleReceipe';
@@ -15,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="Receipe/:id" element={SingleReceipe} />
+        <Route path="Receipe/:id" element={<SingleReceipe />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
