@@ -257,10 +257,12 @@ Receipie
 .receipe-footer h3,
 .receipe-footer h4,
 .receipe-footer p {
+  font-family: sans-serif;
+  text-transform: capitalize;
   margin-bottom: 0.3rem;
 }
 .receipe-footer h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .receipe-footer p {
   color: var(--darkGrey);

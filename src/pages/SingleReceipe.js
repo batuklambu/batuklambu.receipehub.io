@@ -106,8 +106,11 @@ const SingleReceipe = () => {
               {country}
             </p>
             <p>
-              <span className="receipe-data">videourl:</span>
-              {videourl}
+              <span className="receipe-data"></span>
+              <a href={videourl} className="btn btn-primary btn-details">
+                Receipe Video : click Me
+              </a>
+              {/* {videourl} */}
             </p>
             <p>
               <span className="receipe-data">ingredients:</span>
